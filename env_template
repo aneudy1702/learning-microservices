@@ -1,0 +1,5 @@
+PORT=3000
+
+
+# ZIP CODE API VARS
+ZIP_CODE_API__APPLICATION_KEY=getyourKEY from https://www.zipcodeapi.com/Register
