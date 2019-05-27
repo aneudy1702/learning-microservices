@@ -1,7 +1,9 @@
+const distance = require('../services/distance');
 const {
   version,
   name
 } = require('../package.json');
+
 
 module.exports = {
   about: (req, res) => {
@@ -11,10 +13,11 @@ module.exports = {
     })
   },
   get_distance: (req, res) => {
-    res.json({
-      distance: {
-        far: true
+    distance.find(req, res, (err, dist) => {
+      if (err) {
+        res.send(err)
       }
+      res.json(dist)
     })
   }
 }
