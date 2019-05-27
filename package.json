@@ -1,0 +1,27 @@
+{
+  "name": "learning-microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aneudy1702/learning-microservices.git"
+  },
+  "author": "aneudy1702",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aneudy1702/learning-microservices/issues"
+  },
+  "homepage": "https://github.com/aneudy1702/learning-microservices#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
